@@ -65,4 +65,4 @@
 #
 #               an EOL character signifies the end of the bind.
 
-cmd - return : open -na alacritty
+meh - w : open -na alacritty
