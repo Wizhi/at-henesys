@@ -20,3 +20,5 @@ alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 source "$HOME/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source "$HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
