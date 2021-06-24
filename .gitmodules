@@ -2,3 +2,6 @@
 	path = .config/kak
 	url = https://github.com/Wizhi/dot-kakoune
 	ignore = untracked
+[submodule "powerlevel10k"]
+	path = .config/zsh/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
