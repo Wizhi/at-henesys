@@ -13,7 +13,7 @@ if command -v pyenv 1>/dev/null 2>&1; then
 	eval "$(pyenv init -)"
 fi
 
-eval "$(docker-machine env default)"
+eval "$(docker-machine env default 2> /dev/null)"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
