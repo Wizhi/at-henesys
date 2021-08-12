@@ -1,3 +1,5 @@
+DIRENV_LOG_FORMAT=
+
 export CARGO_HOME="$HOME/.cargo"
 export PYENV_ROOT="$HOME/.pyenv"
 export GOPATH="$HOME/go"
