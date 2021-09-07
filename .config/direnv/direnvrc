@@ -1,0 +1,11 @@
+use_nvm() {
+	prefix="$(brew --prefix nvm)"
+
+	[ $? -eq 0 ] || return
+
+	source "$prefix/nvm.sh"
+
+	watch_file .nvmrc
+	nvm install
+	layout node
+}
