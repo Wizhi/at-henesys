@@ -16,6 +16,7 @@ fi
 eval "$(docker-machine env default 2> /dev/null)"
 eval "$(direnv hook zsh)"
 eval "$(pyenv init --path)"
+source "$(brew --prefix nvm)/nvm.sh"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
