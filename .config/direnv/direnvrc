@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 use_nvm() {
 	prefix="$(brew --prefix nvm)"
 
