@@ -6,7 +6,4 @@ if command -v pyenv 1>/dev/null 2>&1; then
 	eval "$(pyenv init -)"
 fi
 
-eval "$(docker-machine env default 2> /dev/null)"
-source "$(brew --prefix nvm)/nvm.sh"
-
 exec elvish
