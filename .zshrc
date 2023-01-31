@@ -7,7 +7,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 eval "$(docker-machine env default 2> /dev/null)"
-eval "$(pyenv init --path)"
 source "$(brew --prefix nvm)/nvm.sh"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
