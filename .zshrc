@@ -1,6 +1,6 @@
-# TODO Figure out how to allow compinit automatically
-source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-#source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+gcloud="$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+[ -f "$cloud" ] && source "$gcloud"
 
 if command -v pyenv 1>/dev/null 2>&1; then
 	eval "$(pyenv init -)"
