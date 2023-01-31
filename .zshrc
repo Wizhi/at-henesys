@@ -9,6 +9,4 @@ fi
 eval "$(docker-machine env default 2> /dev/null)"
 source "$(brew --prefix nvm)/nvm.sh"
 
-source /Users/wizhi/.config/broot/launcher/bash/br
-
 exec elvish
