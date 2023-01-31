@@ -9,6 +9,6 @@ fi
 eval "$(docker-machine env default 2> /dev/null)"
 source "$(brew --prefix nvm)/nvm.sh"
 
-alias dotfiles="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-
 source /Users/wizhi/.config/broot/launcher/bash/br
+
+exec elvish
